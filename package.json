@@ -1,5 +1,5 @@
 {
-  "name": "IPFS NFT - Uploader",
+  "name": "ipfs",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -11,8 +11,10 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
+    "base-path-converter": "^1.0.2",
     "commander": "^7.1.0",
     "dotenv": "^8.2.0",
-    "form-data": "^4.0.0"
+    "form-data": "^4.0.0",
+    "recursive-fs": "^2.1.0"
   }
 }
